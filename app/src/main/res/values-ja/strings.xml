@@ -1,23 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_welcome">Birdayへようこそ</string>
-    <string name="app_name_extended">Birday - イベントマネージャー</string>
-    <string name="leave_review_title">Birdayをレビュー</string>
-    <string name="leave_review_subtitle">アプリで私を助けるためにレビューを残してください。 寄付は別として、このアプリは完全に無料で広告もありません！</string>
-    <string name="yes_review">レビュー！</string>
-    <string name="later">後で約束する</string>
-    <string name="no_thanks">とんでもない!</string>
-    <string name="title_home">ホーム</string>
-    <string name="title_favorites">お気に入り</string>
-    <string name="title_settings">設定</string>
-    <string name="no_events">イベントはありません！下のボタンを使用して追加してください。</string>
-    <string name="no_favorites">イベントがありません！下のボタンを使用して追加します！</string>
-    <string name="add_favorite">お気に入りに追加</string>
-    <string name="stats">統計</string>
-    <string name="no_stats">表示する統計がありません！</string>
-    <string name="stats_summary">統計の概要</string>
+    <string name="app_name" translatable="false">Birday</string>
+    <string name="app_welcome">Welcome to Birday</string>
+    <string name="app_name_extended">Birday - Event Manager</string>
+    <string name="leave_review_title">Review Birday</string>
+    <string name="leave_review_subtitle">Leave a review to help me with the app. Keep in mind that, donations aside, this app is completely free and ad-free!</string>
+    <string name="yes_review">Review!</string>
+    <string name="later">Later, I swear</string>
+    <string name="no_thanks">No way!</string>
+    <string name="title_home">Home</string>
+    <string name="title_favorites">Favorites</string>
+    <string name="title_settings">Settings</string>
+    <string name="no_events">No events! Start adding one using the button below!</string>
+    <string name="no_favorites">No favorites! Press the star to save an event in your favorites!</string>
+    <string name="add_favorite">Add to favorites</string>
+    <string name="stats">Statistics</string>
+    <string name="no_stats">No stats to show!</string>
+    <string name="stats_summary">Stats summary</string>
     <string name="no_stats_description">You don\'t have enough events to generate stats. Add some and come back later!</string>
     <plurals name="stats_total">
+        <item quantity="one">Birday is helping you to remember a total of %d event</item>
         <item quantity="other">Birday is helping you to remember a total of %d events</item>
     </plurals>
     <string name="next_event">Next event</string>
@@ -26,6 +28,7 @@
     <string name="next_age_years">Years</string>
     <string name="event_others">and others</string>
     <plurals name="days_left">
+        <item quantity="one">%d day left</item>
         <item quantity="other">%d days left</item>
     </plurals>
     <!-- Settings -->
@@ -54,10 +57,11 @@
     <string name="accent_name">Accent color</string>
     <string name="theme_description">Use a dark, light or automatic app theme</string>
     <string name="theme_name">App theme</string>
+    <string name="monet" translatable="false">Monet</string>
     <!-- Untranslated for now -->
-    <string name="aqua">水色</string>
-    <string name="brown">茶</string>
-    <string name="blue">青</string>
+    <string name="aqua">Aqua</string>
+    <string name="brown">Brown</string>
+    <string name="blue">Blue</string>
     <string name="green">Green</string>
     <string name="orange">Orange</string>
     <string name="yellow">Yellow</string>
@@ -83,7 +87,7 @@
     <string name="missing_permission_contacts">The contact permission was denied. Try again or activate the permission manually,
     or the contacts import won\'t work!</string>
     <string name="missing_permission_contacts_forever">Birday can\'t ask for permission to import contacts,
-    since you checked \"never ask again\". Enable it manually!</string>
+    since you checked "never ask again". Enable it manually!</string>
     <string name="birday_import_title">Import a Birday backup</string>
     <string name="birday_import_description">Choose a valid Birday backup to restore your events. All existing data
     will be overwritten!</string>
@@ -120,8 +124,17 @@
     <string name="import_calendar_title">Import from calendar</string>
     <string name="import_calendar_description">Import any yearly event from your calendars. Remember to set the event type and year to keep things ordered!</string>
     <!-- Developer -->
+    <string name="dev_name" translatable="false">m.i.n.a.r.</string>
     <string name="dev_description">I\'m a polite guy and I like beautiful things, like animations, icons, sport cars and 3D printing. I work as a designer and computer engineer.</string>
+    <string name="dev_email" translatable="false">minar.tastic@gmail.com</string>
+    <string name="dev_personal_site" translatable="false">https://minar.ml</string>
+    <string name="dev_instagram" translatable="false">https://www.instagram.com/minar.tastic/</string>
+    <string name="dev_twitter" translatable="false">https://twitter.com/MinarTastic</string>
+    <string name="dev_telegram_channel" translatable="false">https://t.me/minartastic</string>
+    <string name="dev_github" translatable="false">https://github.com/m-i-n-a-r</string>
+    <string name="dev_other_apps" translatable="false">https://play.google.com/store/apps/dev?id=7720251761301594831</string>
     <string name="easter_egg">Nice logo, huh? ;D</string>
+    <string name="wtf" translatable="false">WTF?!</string>
     <!-- New event -->
     <string name="new_event">New event</string>
     <string name="new_event_description">Enter a person you care about, and Birday will help you to remember their birthday or other events!</string>
@@ -131,11 +144,11 @@
     <string name="insert_surname_hint">Insert Last Name</string>
     <string name="insert_date_hint">Select a date</string>
     <string name="invalid_value_name">Invalid name!</string>
-    <string name="consider_year">年を考慮する</string>
+    <string name="consider_year">Consider the year</string>
     <string name="event_type_hint">Event type</string>
-    <string name="birthday">誕生日</string>
-    <string name="anniversary">記念日</string>
-    <string name="death_anniversary">死亡記念日。</string>
+    <string name="birthday">Birthday</string>
+    <string name="anniversary">Anniversary</string>
+    <string name="death_anniversary">Death anniversary</string>
     <string name="festivity">Festivity</string>
     <string name="name_day">Name day</string>
     <string name="other">Other</string>
@@ -156,9 +169,16 @@
     <!-- Quick apps -->
     <string name="event_apps">Quick apps</string>
     <string name="event_apps_description">Apps to wish all the best rapidly!</string>
+    <string name="whatsapp" translatable="false">Whatsapp</string>
+    <string name="signal" translatable="false">Signal</string>
+    <string name="telegram" translatable="false">Telegram</string>
+    <string name="instagram" translatable="false">Instagram</string>
+    <string name="messenger" translatable="false">Messenger</string>
+    <string name="email" translatable="false">Email</string>
+    <string name="viber" translatable="false">Viber</string>
     <string name="text_message">Text message</string>
     <string name="dialer">Dialer</string>
-    <string name="wishes_birthday">誕生日おめでとう！</string>
+    <string name="wishes_birthday">Happy birthday!</string>
     <string name="no_default_dialer">No default dialer app found!</string>
     <string name="no_default_sms">No default SMS app found!</string>
     <!-- Statistics -->
@@ -176,6 +196,7 @@
     <string name="random_day_of_week">%1$s was born on %2$s</string>
     <string name="most_common_day_of_week">The most common day of the week of birth is %s</string>
     <plurals name="leap_year_total">
+        <item quantity="one">The number of persons born in a leap year is %d</item>
         <item quantity="other">The number of persons born in a leap year is %d</item>
     </plurals>
     <string name="random_chinese_year">Chinese zodiac sign of %1$s: %2$s</string>
@@ -192,30 +213,35 @@
     <string name="chinese_zodiac_dog">dog</string>
     <string name="chinese_zodiac_pig">pig</string>
     <string name="zodiac_sagittarius">sagittarius</string>
-    <string name="zodiac_capricorn">山羊座</string>
-    <string name="zodiac_aquarius">水瓶座</string>
-    <string name="zodiac_pisces">魚座</string>
-    <string name="zodiac_aries">牡羊座</string>
-    <string name="zodiac_taurus">牡牛座</string>
-    <string name="zodiac_gemini">双子座</string>
-    <string name="zodiac_cancer">蟹座</string>
-    <string name="zodiac_leo">獅子座</string>
-    <string name="zodiac_virgo">乙女座</string>
-    <string name="zodiac_libra">天秤座</string>
-    <string name="zodiac_scorpio">蠍座</string>
+    <string name="zodiac_capricorn">capricorn</string>
+    <string name="zodiac_aquarius">aquarius</string>
+    <string name="zodiac_pisces">pisces</string>
+    <string name="zodiac_aries">aries</string>
+    <string name="zodiac_taurus">taurus</string>
+    <string name="zodiac_gemini">gemini</string>
+    <string name="zodiac_cancer">cancer</string>
+    <string name="zodiac_leo">leo</string>
+    <string name="zodiac_virgo">virgo</string>
+    <string name="zodiac_libra">libra</string>
+    <string name="zodiac_scorpio">scorpio</string>
     <!-- Common words -->
     <plurals name="months">
+        <item quantity="one">%d month</item>
         <item quantity="other">%d months</item>
     </plurals>
-    <string name="today">今日!</string>
-    <string name="yesterday">昨日!</string>
-    <string name="tomorrow">明日!</string>
+    <string name="today">Today!</string>
+    <string name="yesterday">Yesterday!</string>
+    <string name="tomorrow">Tomorrow!</string>
     <plurals name="years">
+        <item quantity="one">%d year</item>
         <item quantity="other">%d years</item>
     </plurals>
     <string name="born_in">born in</string>
     <string name="and">and</string>
+    <string name="unknown" translatable="false">\??</string>
+    <string name="exclamation" translatable="false">! !</string>
     <plurals name="event">
+        <item quantity="one">event: %s</item>
         <item quantity="other">events: %s</item>
     </plurals>
     <!-- Notifications -->
@@ -254,7 +280,8 @@
     <string name="align_start_widget_title">Align at start</string>
     <string name="align_start_widget_description">Align the widget content to the start (right or left depending on your locale)</string>
     <string name="hide_far_widget_title">Hide widget for far events</string>
-    <string name="hide_far_widget_description">Hide the widget if the next events are after the additional notification period (eg: notification 7 days before, the next event is in 10 days -&gt; the widget is hidden)</string>
+    <string name="hide_far_widget_description">Hide the widget if the next events are after the additional notification period (eg: notification 7 days before, the next event is in 10 days -> the widget is hidden)</string>
+
     <!-- Search -->
     <string name="search_event">Search…</string>
     <string name="search_no_result_title">No results found</string>
@@ -271,6 +298,8 @@
     <string name="experimental_disclaimer">The following features are experimental, and might not work properly. Use them at your own risk. Refer to Github for any progress, since some of this features could be \"promoted\" and translated</string>
     <string name="check_github">Check Github</string>
     <string name="translate_app">Translate the app</string>
+    <string name="github_repo_develop" translatable="false">https://github.com/m-i-n-a-r/birday/commits/develop</string>
+    <string name="crowdin_project" translatable="false">https://crwd.in/birday</string>
     <string name="launch_auto_import_title">Auto import on launch</string>
     <string name="launch_auto_import_description_off">Birday won\'t import contacts automatically when launched</string>
     <string name="launch_auto_import_description_on">Birday will automatically sync with contacts at startup</string>
@@ -287,21 +316,21 @@
     <string name="import_json_description">Import from a JSON file. Refer to the wiki on Github for the required file structure</string>
     <string name="export_json_title">Export to JSON</string>
     <string name="export_json_description">Export each event to a JSON file, image excluded</string>
-    <string name="import_csv_title">CSV からインポート</string>
+    <string name="import_csv_title">Import from CSV</string>
     <string name="import_csv_description">Import from a CSV file. Refer to the wiki on Github for the required file structure</string>
-    <string name="export_csv_title">CSV にエクスポート</string>
+    <string name="export_csv_title">Export to CSV</string>
     <string name="export_csv_description">Export each event to a CSV file, image excluded</string>
     <string name="delete_db_title">Delete all the events</string>
     <string name="delete_db_description">Simply, nuke the DB. Think twice before clicking!</string>
-    <string name="delete_db_dialog_title">よろしいですか？</string>
+    <string name="delete_db_dialog_title">Are you sure?</string>
     <string name="delete_db_dialog_description">Make sure to backup your events first, this operation will wipe the DB and should be used for debugging purposes only</string>
     <string name="delete_search_title">Delete search selection</string>
     <string name="delete_search_description_off">It won\'t be possible to delete multiple events at once</string>
     <string name="delete_search_description_on">Press the trash button when you search one or more events to quickly delete them all from Birday. Use with caution!</string>
     <string name="delete_search_confirm">This will delete all the results of this search. You can undo the process shortly after clicking OK if you change your mind!</string>
     <string name="import_contacts_bottom_sheet_description">Would you like to import all the events from your contacts right now?</string>
-    <string name="yes_import">インポートする</string>
-    <string name="advanced_overview_title">高度な概要</string>
-    <string name="advanced_overview_description_off">概要画面には基本情報のみが表示されます</string>
-    <string name="advanced_overview_description_on">概要画面に他の年と詳細情報が表示されます</string>
+    <string name="yes_import">Import</string>
+    <string name="advanced_overview_title">Advanced overview</string>
+    <string name="advanced_overview_description_off">The overview screen will only display basic information</string>
+    <string name="advanced_overview_description_on">The overview screen will show other years and detailed information</string>
 </resources>
