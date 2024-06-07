@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name" translatable="false">Birday</string>
-    <string name="app_welcome">Welcome to Birday</string>
+    <string name="app_welcome">Birdayへようこそ</string>
     <string name="app_name_extended">Birday - Event Manager</string>
     <string name="leave_review_title">Review Birday</string>
     <string name="leave_review_subtitle">Leave a review to help me with the app. Keep in mind that, donations aside, this app is completely free and ad-free!</string>
@@ -22,7 +22,7 @@
         <item quantity="one">Birday is helping you to remember a total of %d event</item>
         <item quantity="other">Birday is helping you to remember a total of %d events</item>
     </plurals>
-    <string name="next_event">Next event</string>
+    <string name="next_event">次のイベント</string>
     <string name="no_next_event">No events to show!</string>
     <string name="no_next_event_description">You haven\'t entered or imported an event yet. Add one and let Birday help you!</string>
     <string name="next_age_years">Years</string>
@@ -253,8 +253,7 @@
     <string name="additional_notification_text">Upcoming events!</string>
     <!-- Introduction slides -->
     <string name="slide_one_title">Welcome to Birday!</string>
-    <string name="slide_one_description">Birday is a simple and lightweight app to manage important events!
-    You can use it to remember and store the birthdays of the people you love and more, in a reliable and fast way.
+    <string name="slide_one_description">Birdayは、重要なイベントを管理するためのシンプルで軽量なアプリです。愛する人の誕生日などを高速な方法で記憶して保存できます。
     </string>
     <string name="slide_two_title">Free, simple, customizable</string>
     <string name="slide_two_description">Birday is free, ad-free and open source. It provides a set of
